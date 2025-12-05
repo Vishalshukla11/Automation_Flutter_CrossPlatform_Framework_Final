@@ -107,14 +107,14 @@ public class DriverFactory {
                     chromeOptions.addArguments("--window-size=1920,1080");
                 }
 
-                System.out.println("🚀 Initializing ChromeDriver...");
+                com.briskpe.smeportal.utils.LoggerUtil.info("🚀 Initializing ChromeDriver...");
                 WebDriver chromeDriver = new ChromeDriver(chromeOptions);
 
                 if (!Config.get("headless", "false").equalsIgnoreCase("true")) {
                     chromeDriver.manage().window().maximize();
                 }
 
-                System.out.println("✅ ChromeDriver initialized successfully");
+                com.briskpe.smeportal.utils.LoggerUtil.info("✅ ChromeDriver initialized successfully");
                 return chromeDriver;
 
             case "firefox":
@@ -134,7 +134,7 @@ public class DriverFactory {
 
     /** -------- ANDROID -------- **/
     private static WebDriver setupAndroidDriver(String deviceName) throws MalformedURLException {
-        System.out.println("🤖 Setting up Android Driver...");
+        com.briskpe.smeportal.utils.LoggerUtil.info("🤖 Setting up Android Driver...");
 
         UiAutomator2Options options = new UiAutomator2Options();
 
@@ -159,25 +159,25 @@ public class DriverFactory {
         String appPath = Config.get("appPath", "");
         if (!appPath.isEmpty()) {
             options.setApp(appPath);
-            System.out.println("  ✓ Using app path: " + appPath);
+            com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ Using app path: " + appPath);
         } else {
             String appPackage = Config.get("android.appPackage");
             String appActivity = Config.get("android.appActivity");
             options.setAppPackage(appPackage)
                     .setAppActivity(appActivity);
-            System.out.println("  ✓ App Package: " + appPackage);
-            System.out.println("  ✓ App Activity: " + appActivity);
+            com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ App Package: " + appPackage);
+            com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ App Activity: " + appActivity);
         }
 
         // Log all capabilities for debugging
-        System.out.println("  ✓ Device Name: " + androidDeviceName);
-        System.out.println("  ✓ UDID: " + udid);
-        System.out.println("  ✓ Platform Version: " + platformVersion);
-        System.out.println("  ✓ Automation Name: " + automationName);
-        System.out.println("  ✓ No Reset: " + noReset);
-        System.out.println("  ✓ Command Timeout: " + timeout + "s");
+        com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ Device Name: " + androidDeviceName);
+        com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ UDID: " + udid);
+        com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ Platform Version: " + platformVersion);
+        com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ Automation Name: " + automationName);
+        com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ No Reset: " + noReset);
+        com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ Command Timeout: " + timeout + "s");
 
-        System.out.println("✅ Android Driver configured successfully");
+        com.briskpe.smeportal.utils.LoggerUtil.info("✅ Android Driver configured successfully");
         return new AndroidDriver(getAppiumUrl(), options);
     }
 
@@ -211,14 +211,23 @@ public class DriverFactory {
             options.setPlatformVersion(Config.get("android.platformVersion", "11"));
             options.setAutomationName("UiAutomator2");
 
+            // Set UDID if available
+            String udid = Config.get("android.udid");
+            if (udid != null && !udid.isEmpty()) {
+                options.setUdid(udid);
+            }
+
             // For Mobile Web, we use Chrome browser, not a native app
             options.setCapability("browserName", "Chrome");
+            options.setCapability("chromedriverAutodownload", true); // Auto-download matching ChromeDriver
             options.setNoReset(true);
             options.setNewCommandTimeout(Duration.ofSeconds(300));
 
-            System.out.println("📱 Setting up Mobile Web on Android (Chrome browser)");
-            System.out.println("  ✓ Device: " + Config.get("android.deviceName", "Android Emulator"));
-            System.out.println("  ✓ Browser: Chrome");
+            com.briskpe.smeportal.utils.LoggerUtil.info("📱 Setting up Mobile Web on Android (Chrome browser)");
+            com.briskpe.smeportal.utils.LoggerUtil
+                    .info("  ✓ Device: " + Config.get("android.deviceName", "Android Emulator"));
+            com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ UDID: " + udid);
+            com.briskpe.smeportal.utils.LoggerUtil.info("  ✓ Browser: Chrome");
 
             try {
                 return new AndroidDriver(getAppiumUrl(), options);
@@ -234,7 +243,7 @@ public class DriverFactory {
             options.setCapability("browserName", "Safari");
             options.setNewCommandTimeout(Duration.ofSeconds(300));
 
-            System.out.println("📱 Setting up Mobile Web on iOS (Safari browser)");
+            com.briskpe.smeportal.utils.LoggerUtil.info("📱 Setting up Mobile Web on iOS (Safari browser)");
 
             try {
                 return new IOSDriver(getAppiumUrl(), options);

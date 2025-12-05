@@ -2,65 +2,64 @@ package com.briskpe.smeportal.Login;
 
 import com.briskpe.smeportal.BaseTest.BaseTest;
 import com.briskpe.smeportal.enums.Platform;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import io.appium.java_client.AppiumBy;
+import lombok.extern.slf4j.Slf4j;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.briskpe.smeportal.pages.DashboardPage;
 import com.briskpe.smeportal.pages.LoginPage;
 
+@Slf4j
 public class LoginTest extends BaseTest {
 
     @Test(priority = 1)
+    public  void TestMethod()
+    {
+        LoginPage loginPage = new LoginPage(getDriver(), platform);
+        DashboardPage dashboardPage = new DashboardPage(getDriver(), platform);
+
+        loginPage.LoginToApplication("7771860140","919191");
+//        loginPage.typeMobileNumber("7771860140");
+//        loginPage.clickContinueButton();
+//        loginPage.isOtpScreenDisplayed();
+//        loginPage.clickOtpTextField();
+//        loginPage.enterOtp("919191");
+//        loginPage.clickOtpSubmit();
+    }
+
+    @Test(priority = 2, description = "Verify user login functionality")
     public void verifyUserCanLoginSuccessfully() throws InterruptedException {
-        System.out.println("===== Starting Login Test =====");
 
         LoginPage loginPage = new LoginPage(getDriver(), platform);
+        DashboardPage dashboardPage = new DashboardPage(getDriver(), platform);
 
-        System.out.println("Waiting for app to load...");
-        Thread.sleep(5000);
+        if (platform == Platform.ANDROID) {
+            loginPage.clickNextButton();
+        }
 
-        // System.out.println("Enabling Flutter semantics");
-        // enableFlutterSemantics();
-        // System.out.print("Flutte sementics Enabled successfully");
+        // Validate elements
+        Assert.assertTrue(loginPage.isSigninTabDisplayed(), "Sign In tab should be visible");
+       // Assert.assertTrue(loginPage.isMobileNumberTextFieldVisible(), "Mobile Number field should be visible");
 
-        Thread.sleep(2000);
+        loginPage.typeMobileNumber("7771860140");
 
-        System.out.println("Validating Sign In tab visibility");
-        Assert.assertTrue(
-                loginPage.isSigninTabDisplayed(),
-                "Sign In tab should be visible on the login screen");
-        System.out.println("✓ Sign In tab is visible");
-
-        System.out.println("Validating Mobile Number field visibility");
-        Assert.assertTrue(
-                loginPage.isMobileNumberTextFieldVisible(),
-                "Mobile Number field should be visible");
-        System.out.println("✓ Mobile Number text field is visible");
-
-        System.out.println("Entering Mobile Number: 9833010111");
-        loginPage.enterMobileNumber("7771860136");
-        System.out.println("✓ Mobile number entered successfully");
-
-        System.out.println("Clicking Continue button");
+        Assert.assertTrue(loginPage.isContinueButtonEnabled(), "Continue button should be enabled");
         loginPage.clickContinueButton();
 
-        Thread.sleep(5000);
-
-        System.out.println("Waiting for OTP screen to be displayed");
-        Assert.assertTrue(
-                loginPage.isOtpScreenDisplayed(),
-                "OTP screen should be displayed after submitting mobile number");
-        System.out.println("✓ OTP screen displayed successfully");
-
-        System.out.println("Entering OTP");
+        // Verify OTP screen & enter OTP88
+        Assert.assertTrue(loginPage.isOtpScreenDisplayed(), "OTP screen should be displayed");
+        loginPage.clickOtpTextField();
         loginPage.enterOtp("919191");
-
-        System.out.println("Submitting OTP");
         loginPage.clickOtpSubmit();
 
-        Thread.sleep(5000);
+        Thread.sleep(10000);
+        enableFlutterSemantics();
 
-        System.out.println("===== Login Test Completed Successfully =====");
+        // Verify Dashboard screen
+        dashboardPage.clickSkipButton();
+        Assert.assertTrue(dashboardPage.isHomePageSideMenuDisplayed(), "Dashboard screen should be displayed");
+        Thread.sleep(10000);
     }
+
 }

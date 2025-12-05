@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite" parallel="false">
+
+    <test name="LoginTests">
+        <classes>
+            <!-- Specify your real test classes here -->
+            <class name="com.briskpe.smeportal.Login.LoginTest" />
+        </classes>
+    </test>
+
+</suite>

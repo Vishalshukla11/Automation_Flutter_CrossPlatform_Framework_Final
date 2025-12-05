@@ -4,11 +4,8 @@ import com.briskpe.smeportal.core.DriverFactory;
 import com.briskpe.smeportal.config.Config;
 import com.briskpe.smeportal.enums.Platform;
 import com.briskpe.smeportal.listeners.TestListener;
-import io.appium.java_client.AppiumBy;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -21,34 +18,6 @@ public abstract class BaseTest {
 
     public WebDriver getDriver() {
         return driver;
-    }
-
-    public WebElement getElementById(String key) {
-        By locator;
-        switch (platform) {
-            case WEB:
-            case MOBILE_WEB:
-                locator = By.xpath(
-                        "//*[contains(@id, '" + key + "') or contains(@name, '" + key + "') or text()='" + key + "']");
-                break;
-            case ANDROID:
-            case IOS:
-                locator = AppiumBy.accessibilityId(key);
-                break;
-            default:
-                throw new IllegalStateException("Unexpected platform: " + platform);
-        }
-        return driver.findElement(locator);
-    }
-
-    public void click(String key) {
-        getElementById(key).click();
-    }
-
-    public void type(String key, String text) {
-        WebElement element = getElementById(key);
-        element.clear();
-        element.sendKeys(text);
     }
 
     public void enableFlutterSemantics() {
@@ -83,10 +52,12 @@ public abstract class BaseTest {
                 String url = Config.get("url");
                 System.out.println("Navigating to URL: " + url);
                 driver.get(url);
+                // driver.manage().window().maximize();
+                // driver.navigate().refresh();
             }
 
             // Wait a bit for Flutter to initialize
-            Thread.sleep(2000);
+            Thread.sleep(10000);
 
             // Enable Flutter semantics for Web/Mobile Web platforms
             if (platform == Platform.WEB || platform == Platform.MOBILE_WEB) {

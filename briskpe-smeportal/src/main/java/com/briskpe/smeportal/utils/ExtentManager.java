@@ -23,7 +23,7 @@ public class ExtentManager {
 
     private static void createInstance() {
         String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
-        reportPath = "test-output/ExtentReport_" + timestamp + ".html";
+        reportPath = "test-output/ExtentReports/ExtentReport_" + timestamp + ".html";
 
         // Create directory if it doesn't exist
         new File("test-output").mkdirs();
@@ -55,5 +55,27 @@ public class ExtentManager {
 
     public static String getReportPath() {
         return reportPath;
+    }
+
+    public static void cleanOldReports() {
+        File reportDir = new File("test-output");
+        if (reportDir.exists()) {
+            deleteDirectory(reportDir);
+            System.out.println("🧹 Cleaned up old reports and screenshots.");
+        }
+    }
+
+    private static void deleteDirectory(File directory) {
+        File[] files = directory.listFiles();
+        if (files != null) {
+            for (File file : files) {
+                if (file.isDirectory()) {
+                    deleteDirectory(file);
+                } else {
+                    file.delete();
+                }
+            }
+        }
+        directory.delete();
     }
 }

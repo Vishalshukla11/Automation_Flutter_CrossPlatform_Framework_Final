@@ -1,0 +1,166 @@
+2025-12-02 11:01:17.153 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 11:02:10.210 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 11:38:43.078 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 11:45:36.081 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 11:48:28.128 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 11:50:58.496 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 11:54:20.835 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 11:58:50.085 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:00:09.096 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:02:56.523 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:12:51.693 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:14:33.384 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:38:26.195 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:42:50.061 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:46:54.914 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:48:54.878 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:50:42.619 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 12:52:38.885 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:56:43.644 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 12:59:23.254 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 13:09:51.812 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:11:28.993 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 13:16:20.751 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:19:31.904 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 13:19:58.259 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 13:24:24.806 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:28:29.517 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:31:55.832 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:35:04.968 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:47:59.423 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:47:59.839 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-12-02 13:48:01.647 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-12-02 13:48:01.748 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-12-02 13:48:03.272 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-12-02 13:48:04.252 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-12-02 13:49:03.555 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 13:49:03.859 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-12-02 13:49:05.370 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-12-02 13:49:05.445 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-12-02 13:49:16.467 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-12-02 13:49:17.010 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-12-02 14:26:17.535 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 14:28:35.525 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 14:29:02.221 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 14:32:05.994 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 15:37:02.402 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 15:40:33.977 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 15:42:38.633 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 15:43:17.633 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 15:49:04.842 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 15:52:30.919 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 16:06:14.790 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 16:07:37.262 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 16:13:15.657 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 16:14:47.832 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 16:22:00.164 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 16:24:27.150 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 16:30:23.524 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 16:33:34.175 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 16:37:57.322 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vishalshukla\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-12-02 17:19:11.716 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-12-02 17:19:32.092 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+

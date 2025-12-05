@@ -26,6 +26,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
+        ExtentManager.cleanOldReports(); // Clean up old reports before starting
         extent = ExtentManager.getInstance();
         System.out.println("\n========== TEST SUITE STARTED ==========");
         System.out.println("Suite Name: " + context.getName());

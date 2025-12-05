@@ -1,0 +1,160 @@
+2025-11-26 13:18:20.047 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 13:18:20.292 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 13:18:21.517 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 13:18:21.562 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 13:18:23.497 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 13:18:24.055 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 13:27:40.999 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 13:27:41.363 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 13:27:42.797 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 13:27:42.844 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 13:27:44.016 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 13:27:44.587 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 13:33:16.893 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 13:33:17.132 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 13:33:18.335 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 13:33:18.379 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 13:33:19.904 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 13:33:20.444 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 14:48:31.047 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 14:48:31.450 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 14:48:32.989 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 14:48:33.049 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 14:48:34.138 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 14:48:34.817 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 14:50:39.565 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 14:50:39.840 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 14:50:41.283 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 14:50:41.319 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 14:50:42.331 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 14:50:42.948 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 14:52:50.262 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 14:52:50.508 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 14:52:51.685 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 14:52:51.725 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 14:52:53.087 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 14:52:53.652 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 14:56:30.397 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 14:56:30.630 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 14:56:31.944 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 14:56:31.993 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 14:56:33.222 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 14:56:33.853 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:00:31.449 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:00:31.686 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:00:32.876 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:00:32.938 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:00:33.936 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:00:34.515 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:08:42.421 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:08:42.656 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:08:44.142 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:08:44.195 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:08:45.587 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:08:46.129 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:16:15.754 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:16:16.030 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:16:17.287 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:16:17.330 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:16:18.429 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:16:19.030 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:21:29.764 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:21:30.001 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:21:31.241 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:21:31.291 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:21:32.629 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:21:33.232 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:25:00.824 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:25:01.094 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:25:02.421 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:25:02.471 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:25:03.971 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:25:04.483 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:26:50.723 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:26:50.977 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:26:52.468 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:26:52.522 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:26:53.873 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:26:54.523 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:29:22.264 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:29:22.553 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:29:23.875 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:29:23.917 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:29:25.044 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:29:25.606 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:33:09.683 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:33:09.924 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:33:11.280 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:33:11.333 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:33:12.881 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:33:13.360 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:34:43.329 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:34:43.689 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:34:45.109 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:34:45.161 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:34:47.573 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:34:48.206 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:38:38.413 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:38:38.730 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:38:40.255 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:38:40.296 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:38:41.413 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:38:41.986 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 15:40:22.996 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 15:40:23.247 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 15:40:24.700 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 15:40:24.759 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 15:40:30.607 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 15:40:31.195 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 16:07:48.252 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 16:07:48.591 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 16:07:50.083 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 16:07:50.136 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 16:07:51.156 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 16:07:51.788 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-26 17:10:33.533 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  Command line suite
+
+2025-11-26 17:10:34.182 [main] INFO  io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-26 17:10:35.758 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-26 17:10:35.810 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/win64/chromedriver-win64.zip
+2025-11-26 17:10:37.011 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-11-26 17:10:37.606 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vishalshukla\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
