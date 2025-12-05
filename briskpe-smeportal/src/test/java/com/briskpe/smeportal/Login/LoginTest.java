@@ -1,10 +1,13 @@
 package com.briskpe.smeportal.Login;
 
 import com.briskpe.smeportal.BaseTest.BaseTest;
+import com.briskpe.smeportal.config.Config;
 import com.briskpe.smeportal.enums.Platform;
 import io.appium.java_client.AppiumBy;
+import io.qameta.allure.Description;
 import lombok.extern.slf4j.Slf4j;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.briskpe.smeportal.pages.DashboardPage;
@@ -13,36 +16,28 @@ import com.briskpe.smeportal.pages.LoginPage;
 @Slf4j
 public class LoginTest extends BaseTest {
 
-    @Test(priority = 1)
-    public  void TestMethod()
-    {
-        LoginPage loginPage = new LoginPage(getDriver(), platform);
-        DashboardPage dashboardPage = new DashboardPage(getDriver(), platform);
+    String mobileNumber = Config.get("mobileNo");
+    String otp = Config.get("OTP");
+    String email = Config.get("email");
 
-        loginPage.LoginToApplication("7771860140","919191");
-//        loginPage.typeMobileNumber("7771860140");
-//        loginPage.clickContinueButton();
-//        loginPage.isOtpScreenDisplayed();
-//        loginPage.clickOtpTextField();
-//        loginPage.enterOtp("919191");
-//        loginPage.clickOtpSubmit();
+    LoginPage loginPage ;
+    DashboardPage dashboardPage ;
+
+    @BeforeMethod
+    public void setUpPages() {
+        loginPage = new LoginPage(getDriver(), platform);
+        dashboardPage = new DashboardPage(getDriver(), platform);
     }
 
-    @Test(priority = 2, description = "Verify user login functionality")
-    public void verifyUserCanLoginSuccessfully() throws InterruptedException {
 
-        LoginPage loginPage = new LoginPage(getDriver(), platform);
-        DashboardPage dashboardPage = new DashboardPage(getDriver(), platform);
+    @Test(priority = 1, description = "Verify user login functionality using MobileNumber")
+    public void verifyUserCanLoginSuccessfullyUsingMobileNumber() {
 
-        if (platform == Platform.ANDROID) {
-            loginPage.clickNextButton();
-        }
-
+        //click on Continue Button If Platform is Android and ios
+        loginPage.clickNextButton();
         // Validate elements
         Assert.assertTrue(loginPage.isSigninTabDisplayed(), "Sign In tab should be visible");
-       // Assert.assertTrue(loginPage.isMobileNumberTextFieldVisible(), "Mobile Number field should be visible");
-
-        loginPage.typeMobileNumber("7771860140");
+        loginPage.typeMobileNumber(mobileNumber);
 
         Assert.assertTrue(loginPage.isContinueButtonEnabled(), "Continue button should be enabled");
         loginPage.clickContinueButton();
@@ -50,16 +45,18 @@ public class LoginTest extends BaseTest {
         // Verify OTP screen & enter OTP88
         Assert.assertTrue(loginPage.isOtpScreenDisplayed(), "OTP screen should be displayed");
         loginPage.clickOtpTextField();
-        loginPage.enterOtp("919191");
+        loginPage.enterOtp(otp);
         loginPage.clickOtpSubmit();
-
-        Thread.sleep(10000);
         enableFlutterSemantics();
-
         // Verify Dashboard screen
         dashboardPage.clickSkipButton();
         Assert.assertTrue(dashboardPage.isHomePageSideMenuDisplayed(), "Dashboard screen should be displayed");
-        Thread.sleep(10000);
+    }
+
+    @Test(priority = 2, description = "Verify user login functionality using Email")
+    public void verifyUserCanLoginUsingEmail()
+    {
+        loginPage.clickSignInWithEmail();
     }
 
 }
